@@ -176,6 +176,15 @@
 }
 }
 
+@media screen and (max-width:350px) {
+  #edu,  #tech{
+    padding: 25rem 1rem 1rem 1rem;
+}
+#certs{
+  padding: 1rem 1rem 1rem 1rem;
+}
+}
+
 @media screen and (max-width: 1800px ){
   .project {
   width: 100%;
