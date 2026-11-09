@@ -1,0 +1,90 @@
+.card {
+  display: flex;
+  padding: clamp(25px, 5vw, 45px);
+  gap: 25px;
+  flex-direction: column;
+  background-color: #0d0c0c;
+  color: #fff;
+  border: 2px solid #161414;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px #cf0d0d;
+}
+
+.icon {
+  font-size: clamp(44px,6vw,44px);
+}
+
+.icon-container{
+  display: block;
+  text-align: center;
+}
+
+.link-container{
+  display: flex;
+  gap: 1rem;
+  font-size: clamp(18px, 4vw,27px);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.proj-card {
+  display: flex;
+  padding: clamp(1.5rem, 4vw, 2rem) 1rem;
+  gap: 1.5rem;
+  flex-direction: column;
+  background-color: #0d0c0c;
+  color: #fff;
+  border: 2px solid #161414;
+  border-radius: 16px;
+  flex-wrap: wrap;
+}
+
+.line{
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+
+.cert-card{
+  color: white;
+}
+
+.link {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.git {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.line-proj{
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  border: none;
+}
+
+.proj-link:hover{
+  transform: scale(1.02);
+}
+
+.proj-link:hover{
+  color: #cf0d0d;
+}
+
+.top, .bottom {
+  display: flex;
+  gap: 110px;
+  flex-direction: row;
+  width: 80%;
+}
+
+.description{
+  font-family: "Geist", sans-serif;
+}
